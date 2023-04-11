@@ -1,6 +1,10 @@
 const App = () => {
-    <div>
-        <firstComponent />
-        <namedComponent />
-    </div>
-}
+    return (
+        <div>
+            <FirstComponent />
+            <NamedComponent name="Max" />
+        </div>
+    )
+    }
+
+ReactDOM.render(<App />, document.getElementById('root'));

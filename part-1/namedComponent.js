@@ -1,3 +1,3 @@
-const namedComponent = (name) => {
-    <p>My name is {name}.</p>
+const NamedComponent = (props) => {
+    return <p>My name is {props.name}.</p>;
 }
